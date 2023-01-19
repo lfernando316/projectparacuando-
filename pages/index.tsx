@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <>
@@ -5,22 +7,22 @@ export default function Home() {
       <ul>
         RUTAS
         <li>
-          <a href="./detalle">detalle</a>
+          <Link href="./detalle">detalle</Link>
         </li>
         <li>
-          <a href="./crearPublicacion">crear publicacion</a>
+          <Link href="./crearPublicacion">crear publicacion</Link>
         </li>
         <li>
-          <a href="./login">login</a>
+          <Link href="./login">login</Link>
         </li>
         <li>
-          <a href="./signUp">sign Up</a>
+          <Link href="./signUp">sign Up</Link>
         </li>
         <li>
-          <a href="./marcas">marcas</a>
+          <Link href="./marcas">marcas</Link>
         </li>
         <li>
-          <a href="./perfil">perfil</a>
+          <Link href="./perfil">perfil</Link>
         </li>
       </ul>
     </>
