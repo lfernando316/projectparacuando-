@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import EventCard from '../components/EventCard';
 
 export default function Home() {
   return (
@@ -25,6 +26,10 @@ export default function Home() {
           <Link href="./perfil">perfil</Link>
         </li>
       </ul>
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <EventCard />
+      <article className=""></article>
+      card
     </>
   );
 }
