@@ -15,16 +15,16 @@
   max-height: 239px;
 }
 .card_button {
-  position: absolute;
+  position: relative;
   background-color: #d9d9d9;
   width: 49px;
   height: 49px;
   border-radius: 50%;
-  top: 87%;
-  left: 58%;
+  margin-top: -25px;
+  margin-left: 210px;
 }
 .card_content {
-  padding: 10px 25px;
+  padding: 1px 25px;
 }
 .card_tittle {
   color: #1a1e2e;
