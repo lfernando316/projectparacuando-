@@ -14,6 +14,7 @@ module.exports = {
       xl: '1536px',
     },
     extend: {
+   
       colors: {
         blue: '#1B4DB1',
         yellow: '#F3F243',
@@ -25,6 +26,9 @@ module.exports = {
         grayLighter: '#F8F7FA',
         red: '#EF3F47',
       },
+      backgroundImage: theme => ({
+        'image': "url('/signupp.png')"
+      })
     },
   },
   plugins: [],
