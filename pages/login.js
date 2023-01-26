@@ -9,13 +9,13 @@ export default function Login() {
             <h1 className="text-xl md:text-2xl font-bold leading.tight mt-13">
               Login
             </h1>
-            <h1 className="text-gray">
+            <h1 className="text-gray pt-3">
               Login whit the data you entered during your registration
             </h1>
 
             <form className="mt-6" action="#" method="Post">
               <div>
-                <label className="">Email</label>
+                <label className="font-semibold">Email</label>
                 <input
                   type="Email"
                   placeholder="Enter Email Address"
@@ -25,7 +25,7 @@ export default function Login() {
               </div>
 
               <div className="mt-4">
-                <label className="block font-inter">Password</label>
+                <label className="block font-inter font-semibold">Password</label>
                 <input
                   type="password"
                   placeholder="Enter Password"
