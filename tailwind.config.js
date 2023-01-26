@@ -25,10 +25,14 @@ module.exports = {
         grayLighter: '#F8F7FA',
         red: '#EF3F47',
       },
-
-      backgroundImage: theme => ({
-        image: "url('/signupp.png')"
-      }),
+theme:{
+  extend: {
+      backgroundImage: {
+        'image': "url('/signupp.png')",
+        "image2": "url('/login.png')"
+      },
+    },
+    },
     },
   },
   plugins: [],

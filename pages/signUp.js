@@ -1,8 +1,8 @@
 export default function singUp() {
   return (
     <>
-      <section className="flex felx-col md:flex-row h-screen items-center">
-        <div className="bg-cover bg-image2 h-screen  lg:block md:w-1/2 xl:w-2/3 h-screen"></div>
+      <section className="flex flex-col md:flex-row h-screen items-center">
+        <div className="bg-cover bg-[url('/login.png')] h-screen  lg:block md:w-1/2 xl:w-2/3 h-screen"></div>
 
         <div className="bg-white flex md:mx-auto md:mx-0 md:max-w-md lg:max-w-full px-6 lg:px-16 xl:p">
           <div className="w-full h-100">

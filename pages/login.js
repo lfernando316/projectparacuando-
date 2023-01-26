@@ -2,7 +2,7 @@ export default function Login() {
   return (
     <>
       <section className="flex felx-col md:flex-row h-screen items-center">
-        <div className="bg-cover bg-image h-screen  lg:block md:w-1/2 xl:w-2/3 h-screen"></div>
+        <div className="bg-cover bg-[url('/signupp.png')] h-screen  lg:block md:w-1/2 xl:w-2/3 h-screen"></div>
 
         <div className="bg-white flex md:mx-auto md:mx-0 md:max-w-md lg:max-w-full px-6 lg:px-16 xl:p">
           <div className="w-full h-100">
