@@ -31,7 +31,7 @@ export default function singUp() {
                   type="text"
                   placeholder="First name"
                   name=""
-                  className="border border-gray-ligth py-1 px-2 rounded"/>
+                  className="border border-black py-3 px-2 rounded-lg"/>
               </div>
 
               <div className="w-1/2 mr-1 mt-1">
@@ -40,7 +40,7 @@ export default function singUp() {
                   type="text"
                   placeholder="Last name"
                   name=""
-                  className="border border-gray-ligth py-1 px-2 rounded"/>
+                  className="border border-gray-ligth py-3 px-2 rounded-lg"/>
               </div>
               </div> 
 
